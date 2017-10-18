@@ -14,6 +14,6 @@ app.use('/', function(req, res, next) {
 	res.send("Hey there, this is an ansible demo");
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 8080, function () {
   console.log('Express server is up on port ' + 4000);
 });
